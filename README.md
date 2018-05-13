@@ -1,2 +1,4 @@
-# pun.bnk48.image.classification
-Image analysis of Pun BNK48 (for โอตะ like me) using advanced ML classification algorithms 
+# Pun BNK48 Image Classification Using Tensorflow
+オタク’s Deep Learning in Python
+
+Please visit https://medium.com/@kyleake/pun-bnk48-image-classification-using-tensorflow-44196964f644 for my original article. I explain in details with regards to collected image datasets, requirements, theory, approaches, and key result. I learned that InceptionV3 (arXiv:1512.00567), ResNet-50 (arXiv:1512.03385), ResNet-152 (arXiv:1512.03385), VGG16 (arXiv:1409.1556), and AlexNet were tested using the ImageNet data set. Inception V3 has been commonly used in custom image classification. The classification model performs well most of the time (accurately predict 2 out of 3), for instance, the first image is 95.12% certain of Pun BNK48 whereas the second image is 96.92% of Cherprang BNK48. The high scoring concurs with confidence of classification. However, more images need to be collected and trained to guarantee the best performing classifier. Here is just a simple guide of study. In the future, I will expand the training universe to the entire BNK48 band as InceptionV3 allows for multi-classification scheme. Ideally, I want to build a system that can detect everyone although the image has a group of members rather than a single one.
